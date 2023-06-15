@@ -5,7 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@supabase/supabase-js"></script>
     <script >
-      async function  init(){
+      async function init(){
         const { createClient } = supabase
         const _supabase = createClient('https://unwbotazieldyujjpsfk.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVud2JvdGF6aWVsZHl1ampwc2ZrIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODQ4MjExNjgsImV4cCI6MjAwMDM5NzE2OH0._4aPTvXSa3wSBwYat01rgDRB9iioiZg9aU7ItP-K9Gg')
         let { data: version, error } = await _supabase.from('version').select('build')
@@ -20,13 +20,11 @@
         background-image: linear-gradient(to right , #55555, black);
       }
       a{
-        font-family: 'Montserrat', sans-serif;
         color:orange;
         text-decoration: none;
         font-size: 15;
       }
       .me{
-        font-family: 'Montserrat', sans-serif;
         color:white;
         font-size: 11;
       }
