@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './img/vocalstar_logo.png';
 
 function App() {
   return (
     <div className="App">
      <center>
-      <img src="vocalstar_logo.png" alt="Vocalstar" width="760" height="760"/>
+      <img src={logo} alt="Vocalstar" width="760" height="760"/>
       <br/>
        <br/>
       <a href="mailto:info@vocalstar.app">info@vocalstar.app</a>
