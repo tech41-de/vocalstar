@@ -41,26 +41,25 @@ export default function LandingLayout(props) {
 
 
 <SimpleGrid columns={2} spacing={10}>
-<VStack  >
+<VStack>
 <UnorderedList class="mylist">
-
   <ListItem class="mylist">Sing along with your favourite tunes</ListItem>
   <ListItem class="mylist">Hear yourself like a pro</ListItem>
   <ListItem class="mylist">Works with wired Apple EarPods</ListItem>
   <ListItem class="mylist">Enjoy a professional vocal sound</ListItem>
-  <ListItem class="mylist">Free for ever</ListItem>
+  <ListItem class="mylist">Basic version free forever</ListItem>
   <ListItem class="mylist">Choose songs from your iTunes library</ListItem>
   <ListItem class="mylist">Spotify song select coming soon</ListItem>
   <ListItem class="mylist">Pro version with recording, editing and publishing features coming in 2024...</ListItem>
 </UnorderedList>
 
 <a href="https://apple.com" target="_blank" >
-<Image  src="appstore.png" alt="Appstore Vocalstar" />
+  <Image  src="appstore.png" alt="Appstore Vocalstar" />
 </a>
 
 <Text>Get notified when Vocalstar Pro is available</Text>
 <Input placeholder='email' size='lg'/>
- <Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button>
+<Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button>
 
 </VStack>
      <Image src="iPhone.png" alt="Vocalstar iPhone" />
