@@ -1,20 +1,49 @@
-import logo from './logo.png';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-     <center>
-      <img src="/logo.png" alt="Vocalstar" width="760" height="760"/>
-      <br/>
-       <br/>
-      <a href="mailto:info@vocalstar.app">info@vocalstar.app</a>
-        <br/> <br/>
-      <div class="me" id="me" />
-        <br/>
-    </center>
-    </div>
-  );
+import './App.css';
+import { ColorModeScript } from '@chakra-ui/react'
+import theme from './theme'
+
+import * as React from 'react'
+import { extendTheme, ChakraProvider } from '@chakra-ui/react'
+import { Container } from '@chakra-ui/react'
+import { Image } from '@chakra-ui/react'
+import { Center, Square, Circle } from '@chakra-ui/react'
+import {
+  Table,
+  Thead,
+  Tbody,
+  Tfoot,
+  Tr,
+  Th,
+  Td,
+  TableCaption,
+  TableContainer,
+  Text,
+} from '@chakra-ui/react'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import ReactDOM from "react-dom"
+
+import Landing from "./Landing"
+
+
+const config = {
+  initialColorMode: 'dark',
+  useSystemColorMode: false,
 }
 
-export default App;
+export default function App() {
+  return (
+    <ChakraProvider initialColorMode='dark' >
+    <BrowserRouter>
+      <Routes>
+       <Route exact path="/" element={<Landing/>} />
+      </Routes>
+    </BrowserRouter>
+    </ChakraProvider>
+  )
+}
+
+
+
+
