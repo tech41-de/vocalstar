@@ -28,18 +28,10 @@ export default function FaqLayout(props) {
   return (
 <div>
 <img src="/logo3.png" class="logo" width="286" height="59" />  
-
-
  <br/> <br/>
  <center>
   <h1 class="title2">FAQ</h1>
- <Center width="800px" color="white">
-     
-
-
-     </Center>
-      <Footer />
-
+   <Footer />
 </center> 
     </div>
   )

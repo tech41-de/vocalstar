@@ -33,7 +33,6 @@ export default function ImpressunLayout(props) {
  <br/> <br/><br/>
  <center>
   <h1 class="title2 ">Impressum</h1>
- <Center color="white">
  Angaben gemäß § 5 TMG:<br/><br/>
 Tech41 GmbH<br/>
 Schützenstrasse 110<br/>
@@ -50,7 +49,6 @@ Mathias Dietrich<br/>
 Tech41 GmbH<br/>
 Schü​tzenstrasse 110<br/>
 22761 Hamburg<br/>
-     </Center>
       <Footer />
 </center> 
     </div>
