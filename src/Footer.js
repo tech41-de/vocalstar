@@ -34,11 +34,14 @@ export default function FooterLayout(props) {
        <Spacer/>
        <Divider/>
       <HStack>
-    
-        <Text class="copy">Please ontact us: <a href="mailto:info@vocalstar.app">info@vocalstar.app</a></Text><Spacer/>
-         <Link href="">Impressum</Link><Spacer/>
-         <Link href="">Policies</Link>
-         <Text class="copy">© TECH41 GmbH, Hamburg, Germany, 2023</Text>
+        <div class="copy">©2023 TECH41 GmbH</div><Spacer/>
+         <Link class="copy" href="">Privacy Policy</Link><Spacer/>
+        <Link class="copy" href="">WebTerms</Link><Spacer/>
+        <Link class="copy" href="">AppTerms</Link><Spacer/>
+        <Link class="copy" href="">FAQ</Link><Spacer/>
+        <div class="copy"><a class="copy" href="mailto:info@vocalstar.app">Contact Us</a></div><Spacer/>
+
+        
        </HStack>
       </VStack>
     </Flex>

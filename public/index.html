@@ -30,34 +30,42 @@
      <style>
       body{
         font-family: 'Montserrat', sans-serif;
-        background-color:black !important;
-        color:white !important;
-        background-image: linear-gradient(to right , #55555, black);
+      
+         background-image: url("/bg.png") !important;
+         background-repeat: no-repeat  !important;
+
+         color:#BBBBBB !important;
+      
       }
 
       a{
-        color:orange !important;
-        font-size: 15;
+        color:white !important;
+        font-size: 13px !important;
       }
 
       .mylist{
-          font-size:40px;
+          font-size: 29px !important;
+          color:#BBBBBB;
       }
 
       .copy{
-        color:gray;
+        color:gray !important;
         text-decoration: none;
-        font-size: 9;
+        font-size: 13px !important;
+      }
+      .small{
+        font-size: 13px !important;
+         color:gray !important;
       }
  
-      .navBar: {
+      .navBar{
         height: 60;
         flexDirection: 'row';
         justifyContent: 'space-between';
         alignItems: 'center';
         backgroundColor: 'blue';
       },
-      .leftContainer: {
+      .leftContainer {
          color:white;
         font-size: 11;
         flex: 1;
@@ -65,18 +73,23 @@
         justifyContent: 'flex-start';
         backgroundColor: 'green';
       },
-      .rightContainer: {
+      .rightContainer {
         flex: 1;
         flexDirection: 'row';
         justifyContent: 'flex-end';
         alignItems: 'center';
         backgroundColor: 'red';
       },
-      .rightIcon: {
+      .rightIcon{
         height: 10;
         width: 10;
         resizeMode: 'contain';
         backgroundColor: 'white';
+      }
+      .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+        position:absolute;
       }
 
      </style>

@@ -14,6 +14,7 @@ import {
   Button,  
   ButtonGroup,
   Link,
+  Spacer, 
   Text, SimpleGrid, Image, Center, Square, Circle } from '@chakra-ui/react'
 
 import { useNavigate } from "react-router-dom";
@@ -29,45 +30,46 @@ export default function LandingLayout(props) {
   }
 
   return (
-    <Flex
 
+<div>
+<img src="/logo3.png" class="logo" width="286" height="59" />  
+    <Flex
       direction="column"
-      align="center"
-      maxW={{ xl: "800px" }}
       m="0 auto"
       {...props}
     >
-      <Header />
+        
+    
+      <SimpleGrid columns={2} spacing={5}>
 
+      <VStack>
 
-<SimpleGrid columns={2} spacing={10}>
-<VStack>
-<UnorderedList class="mylist">
-  <ListItem class="mylist">Sing along with your favourite tunes</ListItem>
-  <ListItem class="mylist">Hear yourself like a pro</ListItem>
-  <ListItem class="mylist">Works with wired Apple EarPods</ListItem>
-  <ListItem class="mylist">Enjoy a professional vocal sound</ListItem>
-  <ListItem class="mylist">Basic version free forever</ListItem>
-  <ListItem class="mylist">Choose songs from your iTunes library</ListItem>
-  <ListItem class="mylist">Spotify song select coming soon</ListItem>
-  <ListItem class="mylist">Pro version with recording, editing and publishing features coming in 2024...</ListItem>
-</UnorderedList>
+      <Spacer/>
+      <ul class="mylist">
+        <li class="mylist">Sing along with your favourite tunes</li>
+        <li class="mylist">Hear yourself like a pro</li>
+        <li class="mylist">Use  wired Apple EarPods for low latency</li>
+        <li class="mylist">Use songs from your iTunes library</li>
+        <li class="mylist">Use songs from  Spotify <span class="small">(coming soon)</span></li>
+         <li class="mylist">Basic Version free forever</li>
+        <li class="mylist">Vocalstar Pro with many additional features <span class="small">(coming 2024)</span></li>
+      </ul>
 
-<a href="https://apple.com" target="_blank" >
-  <Image  src="appstore.png" alt="Appstore Vocalstar" />
-</a>
+<br/><br/>
+      <a href="https://apple.com" target="_blank" >
+        <Image  src="appstore.svg" alt="Appstore Vocalstar" />
+      </a>
 
-<Text>Get notified when Vocalstar Pro is available</Text>
-<Input placeholder='email' size='lg'/>
-<Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button>
+<br/><br/>  <br/>
+      <Text>Get notified when Vocalstar Pro is available</Text>
+      <Input placeholder='email' w="300px"/>
+      <Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button>
 
-</VStack>
-     <Image src="iPhone.png" alt="Vocalstar iPhone" />
-</SimpleGrid>
-
-
-
+      </VStack>
+           <img src="iPhone2.png" width="390" alt="Vocalstar iPhone" />
+      </SimpleGrid>
       <Footer />
     </Flex>
+    </div>
   )
 }
