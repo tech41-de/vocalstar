@@ -25,7 +25,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import ReactDOM from "react-dom"
 
 import Landing from "./Landing"
-
+import Policy from "./policy"
+import FAQ from "./faq"
+import Impressum from "./impressum"
 
 const config = {
   initialColorMode: 'dark',
@@ -37,7 +39,10 @@ export default function App() {
     <ChakraProvider initialColorMode='dark' >
     <BrowserRouter>
       <Routes>
-       <Route exact path="/" element={<Landing/>} />
+        <Route exact path="/" element={<Landing/>} />
+        <Route exact path="/policy" element={<Policy/>} />
+        <Route exact path="/faq" element={<FAQ/>} />
+        <Route exact path="/impressum" element={<Impressum/>} />
       </Routes>
     </BrowserRouter>
     </ChakraProvider>
