@@ -32,7 +32,7 @@ export default function PolicyLayout(props) {
 
  <br/> <br/>
  <center>
-  <h1 class="title2">Policy</h1>
+  <h1 class="title2">Privacy Policy</h1>
  <Center width="800px" color="white">
      
 
