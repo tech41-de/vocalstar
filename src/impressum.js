@@ -29,9 +29,10 @@ export default function ImpressunLayout(props) {
 <div>
 <img src="/logo3.png" class="logo" width="286" height="59" />  
 
- <h1 class="title">Impressum</h1>
+
  <br/> <br/>
  <center>
+  <h1 class="title2 ">Impressum</h1>
  <Center width="800px" color="white">
      
  Angaben gemäß § 5 TMG:<br/><br/>
@@ -39,32 +40,16 @@ export default function ImpressunLayout(props) {
  
 
 Tech41 GmbH<br/>
-
 Schützenstrasse 110<br/>
-
 22761 Hamburg<br/><br/>
-
- 
-
-Telefonnummer: +49 172 169 6364<br/><br/>
-
- 
-
+Telefonnummer: +49 172 169 6364<br/>
 E-Mail: legal@tech41.de<br/>
-
-Website: Tech41.de<br/><br/>
-
- 
+Website: tech41.de<br/><br/>
 
 Registergericht: Amtsgericht Berlin<br/>
-
 Registernummer: HRB 234984 B<br/>
-
 Vertretungsberechtigter Geschäftsführer: Mathias Dietrich<br/>
-
 Umsatzsteuer-Identifikationsnummer gemäß § 27 UStG: DE359473027<br/>
-
-​
 
 Verantwortlich für den Inhalt „Musterkategorie“ nach § 55 Abs. 2 RStV:<br/>
 

@@ -29,9 +29,10 @@ export default function PolicyLayout(props) {
 <div>
 <img src="/logo3.png" class="logo" width="286" height="59" />  
 
- <h1 class="title">Policy</h1>
+
  <br/> <br/>
  <center>
+  <h1 class="title2">Policy</h1>
  <Center width="800px" color="white">
      
 
