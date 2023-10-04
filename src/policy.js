@@ -30,10 +30,10 @@ export default function PolicyLayout(props) {
 <img src="/logo3.png" class="logo" width="286" height="59" />  
 
 
- <br/> <br/>
+ <br/> <br/> <br/>
  <center>
   <h1 class="title2">Privacy Policy</h1>
- <Center width="800px" color="white">
+ <Center  color="white">
      
 
       Last Updated: October 3, 2023

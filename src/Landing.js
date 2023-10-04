@@ -38,7 +38,6 @@ export default function LandingLayout(props) {
       m="0 auto"
       {...props}
     >
-        
     
       <SimpleGrid columns={2} spacing={5}>
 
@@ -67,7 +66,6 @@ export default function LandingLayout(props) {
       </VStack>
            <img src="iPhone3.png" class="mobile" width="380" alt="Vocalstar iPhone" />
       </SimpleGrid>
-      <br/><br/> 
       <Footer />
     </Flex>
     </div>
