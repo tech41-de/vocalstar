@@ -43,17 +43,17 @@ export default function LandingLayout(props) {
       <SimpleGrid columns={2} spacing={5}>
 
       <VStack>
-
-      <Spacer/>
+      <div class="list">
       <ul class="mylist">
-        <li class="mylist">Sing along with your favourite tunes</li>
-        <li class="mylist">Hear yourself like a pro</li>
-        <li class="mylist">Use  wired Apple EarPods for low latency</li>
-        <li class="mylist">Select songs from iTunes</li>
-        <li class="mylist">Select songs from Spotify <span class="small">(coming soon)</span></li>
-         <li class="mylist">Basic Version free forever</li>
-        <li class="mylist">Vocalstar Pro with many additional features in 2024</li>
+        <li class="mylist">&#8227; Sing along with your favourite tunes</li>
+        <li class="mylist">&#8227;  Hear yourself like a pro</li>
+        <li class="mylist">&#8227;  Use  wired Apple EarPods for low latency</li>
+        <li class="mylist">&#8227;  Select songs from iTunes</li>
+        <li class="mylist">&#8227;  Select songs from Spotify <span class="small">(coming soon)</span></li>
+         <li class="mylist">&#8227;  Basic Version free forever</li>
+        <li class="mylist">&#8227;  Vocalstar Pro with many additional features in 2024</li>
       </ul>
+      </div>
 
 <br/><br/>
       <a href="https://apple.com" target="_blank" >
