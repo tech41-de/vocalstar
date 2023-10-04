@@ -66,7 +66,7 @@ export default function LandingLayout(props) {
       <Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button>
 
       </VStack>
-           <img src="iPhone2.png" width="390" alt="Vocalstar iPhone" />
+           <img src="iPhone3.png" class="mobile" width="380" alt="Vocalstar iPhone" />
       </SimpleGrid>
       <Footer />
     </Flex>
