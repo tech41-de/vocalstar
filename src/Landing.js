@@ -49,8 +49,8 @@ export default function LandingLayout(props) {
         <li class="mylist">Sing along with your favourite tunes</li>
         <li class="mylist">Hear yourself like a pro</li>
         <li class="mylist">Use  wired Apple EarPods for low latency</li>
-        <li class="mylist">Use songs from your iTunes library</li>
-        <li class="mylist">Use songs from  Spotify <span class="small">(coming soon)</span></li>
+        <li class="mylist">Select songs from iTunes</li>
+        <li class="mylist">Select songs from Spotify <span class="small">(coming soon)</span></li>
          <li class="mylist">Basic Version free forever</li>
         <li class="mylist">Vocalstar Pro with many additional features <span class="small">(coming 2024)</span></li>
       </ul>
