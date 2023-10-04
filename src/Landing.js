@@ -32,7 +32,7 @@ export default function LandingLayout(props) {
   return (
 
 <div>
-<img src="/logo3.png" class="logo" width="286" height="59" />  
+<Header />
     <Flex
       direction="column"
       m="0 auto"

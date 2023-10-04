@@ -26,10 +26,10 @@ export default function ImpressunLayout(props) {
   const navigate = useNavigate();
 
   return (
-<div>
-<img src="/logo3.png" class="logo" width="286" height="59" />  
+<span>
+<Header />
 
-
+<div class="impressum">
  <br/> <br/><br/>
  <center>
   <h1 class="title2 ">Impressum</h1>
@@ -48,9 +48,10 @@ Verantwortlich für den Inhalt „Musterkategorie“ nach § 55 Abs. 2 RStV:<br/
 Mathias Dietrich<br/>
 Tech41 GmbH<br/>
 Schü​tzenstrasse 110<br/>
-22761 Hamburg<br/>
-      <Footer />
+22761 Hamburg
 </center> 
     </div>
+     <Footer />
+     </span>
   )
 }

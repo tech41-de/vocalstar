@@ -26,16 +26,15 @@ export default function PolicyLayout(props) {
   const navigate = useNavigate();
 
   return (
-<div>
-<img src="/logo3.png" class="logo" width="286" height="59" />  
-
+<span>
+<Header />
+<div class="impressum">
 
  <br/> <br/> <br/>
  <center>
   <h1 class="title2">Privacy Policy</h1>
  <Center  color="white">
      
-
       Last Updated: October 3, 2023
 
 This policy explains TECH41’s information practices, defines your privacy options and describes how your personal information is collected and used.
@@ -163,9 +162,11 @@ The TECH41 Website or the Applications may contain links to other websites or ot
 
 If you have any questions about this Privacy Policy or the TECH41 Website or the Applications, please contact us at info@tech41.de.
      </Center>
-      <Footer />
+     
 
 </center> 
     </div>
+     <Footer />
+    </span>
   )
 }

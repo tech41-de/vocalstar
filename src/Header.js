@@ -20,11 +20,6 @@ import { Center, Square, Circle } from '@chakra-ui/react'
 
 export default function HeaderLayout(props) {
   return (
-
-    <HStack  class="title">
-    <img src="/logo3.png" />
-    </HStack>
-
-
+   <img src="/logo3.png" class="logo" width="286" height="59" />  
   )
 }
