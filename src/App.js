@@ -37,7 +37,7 @@ const config = {
 export default function App() {
   return (
     <ChakraProvider initialColorMode='dark' >
-    <BrowserRouter>
+    <BrowserRouter basename={"/"}>
       <Routes>
         <Route exact path="/" element={<Landing/>} />
         <Route exact path="/policy" element={<Policy/>} />
