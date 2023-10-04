@@ -28,6 +28,7 @@ export default function FaqLayout(props) {
   return (
 <div>
 <Header />
+<br/><br/><br/>
 <div class="impressum">
  <center>
   <h1 class="title2">FAQ</h1>
