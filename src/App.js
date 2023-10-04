@@ -25,9 +25,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import ReactDOM from "react-dom"
 
 import Landing from "./Landing"
-import Policy from "./policy"
-import FAQ from "./faq"
-import Impressum from "./impressum"
+import Policy from "./Policy"
+import FAQ from "./Faq"
+import Impressum from "./Impressum"
 
 const config = {
   initialColorMode: 'dark',

@@ -21,7 +21,7 @@ import {
 import { useNavigate } from "react-router-dom";
 
 
-export default function PolicyLayout(props) {
+export default function ImpressunLayout(props) {
 
   const navigate = useNavigate();
 
