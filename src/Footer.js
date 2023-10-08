@@ -18,7 +18,7 @@ import {
   Spacer,
 } from '@chakra-ui/react'
 
-
+import CookieConsent from "react-cookie-consent";
 
 export default function FooterLayout(props) {
   return (
@@ -41,10 +41,21 @@ export default function FooterLayout(props) {
         <Link class="copy" href="/appterms.pdf" target="_blank">AppTerms</Link><Spacer/>
         <Link class="copy" href="faq">FAQ</Link><Spacer/>
         <div class="copy"><a class="copy" href="mailto:info@vocalstar.app" target="_blank">Contact Us</a></div><Spacer/>
-
-        
        </HStack>
+
+       <CookieConsent
+          location="bottom"
+          buttonText="I Accept"
+          cookieName="Vocalstar"
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+          expires={150}
+        >
+          This website uses cookies to enhance the user experience.{" "}
+          <span style={{ fontSize: "10px" }}></span>
+      </CookieConsent>
+
       </VStack>
-    </Flex>
+      </Flex>
   )
 }
