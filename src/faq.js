@@ -48,6 +48,12 @@ export default function FaqLayout(props) {
   </div>
  <br/>
 
+ <div class="faqitem">
+   <h2 class="title2">Can i select songs from Spotify?</h2>
+   <p>Today you can select songs from your iTunes Music library. We are adding support for Spotify end of 2023.</p>
+  </div>
+ <br/>
+
   <div class="faqitem">
    <h2 class="title2">Can i record my self with Vocalstar?</h2>
    <p>The basic version of Vocalstar does not allow recording. The Pro Version will.</p>
