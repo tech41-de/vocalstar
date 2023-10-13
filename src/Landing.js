@@ -64,7 +64,7 @@ export default function LandingLayout(props) {
       <a href="mailto:info@vocalstar.app?subject=Notify Me&body=Hi, %0D%0A%0D%0APlease notify me when Vocalstar Pro is available! %0D%0A%0D%0AKind regards, %0D%0A[your name]" target="_blank"><Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button></a>
 
       </VStack>
-           <img src="iPhone3.png" class="mobile" width="380" alt="Vocalstar iPhone" />
+           <img src="iPhone4.png" class="mobile" width="380" alt="Vocalstar iPhone" />
       </SimpleGrid>
       <Footer />
     </Flex>
