@@ -34,7 +34,8 @@ export default function FooterLayout(props) {
        <Spacer/>
        <Divider/>
       <HStack>
-        <div class="copy">©2023 TECH41 GmbH</div><Spacer/>
+        <div class="copy"><a class="copy" href="https://tech41.de" target="_blank">©2023 TECH41 GmbH</a></div><Spacer/>
+        <Link class="copy" href="https://vocalstar.app">Home</Link><Spacer/>
         <Link class="copy" href="impressum">Impressum</Link><Spacer/>
         <Link class="copy" href="policy">Privacy Policy</Link><Spacer/>
         <Link class="copy" href="/webterms.pdf" target="_blank">WebTerms</Link><Spacer/>
