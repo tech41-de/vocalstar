@@ -55,7 +55,7 @@ export default function LandingLayout(props) {
       </div>
 
 <br/><br/>
-      <a href="https://apple.com" target="_blank" >
+      <a href="https://apps.apple.com/us/app/vocalstar/id6468662839" target="_blank" >
         <Image  src="appstore.svg" alt="Appstore Vocalstar" />
       </a>
 
