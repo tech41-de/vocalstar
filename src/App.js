@@ -28,6 +28,7 @@ import Landing from "./Landing"
 import Policy from "./Policy"
 import FAQ from "./Faq"
 import Impressum from "./Impressum"
+import Video from "./Video"
 
 const config = {
   initialColorMode: 'dark',
@@ -43,6 +44,7 @@ export default function App() {
         <Route exact path="/policy" element={<Policy/>} />
         <Route exact path="/faq" element={<FAQ/>} />
         <Route exact path="/impressum" element={<Impressum/>} />
+         <Route exact path="/video" element={<Video/>} />
       </Routes>
     </BrowserRouter>
     </ChakraProvider>
