@@ -45,7 +45,7 @@ export default function LandingLayout(props) {
       <div class="list">
       <ul class="mylist">
         <li class="mylist">&#8227; Sing along with your favourite tunes</li>
-        <li class="mylist">&#8227; The perfecdt companion for Apple Music Sing</li>
+        <li class="mylist">&#8227; The perfect companion for Apple Music Sing</li>
         <li class="mylist">&#8227;  Hear yourself like a pro</li>
         <li class="mylist">&#8227;  Use  wired Apple EarPods for low latency</li>
         <li class="mylist">&#8227;  Select songs from iTunes</li>
