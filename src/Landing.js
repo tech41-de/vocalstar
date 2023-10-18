@@ -51,7 +51,7 @@ export default function LandingLayout(props) {
         <li class="mylist">&#8227;  Select songs from iTunes</li>
         <li class="mylist">&#8227;  Select songs from Spotify <span class="small">(coming soon)</span></li>
         <li class="mylist">&#8227;  Basic Version free forever</li>
-        <li class="mylist">&#8227;  Vocalstar Pro with many additional features in 2024</li>
+        <li class="mylist">&#8227;  Vocalstar Pro with many additional features like recording and editing in 2024</li>
       </ul>
       </div>
 
