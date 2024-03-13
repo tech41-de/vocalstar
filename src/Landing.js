@@ -64,9 +64,9 @@ export default function LandingLayout(props) {
       <Text>Get notified when Vocalstar Pro is available</Text>
       <a href="mailto:info@vocalstar.app?subject=Notify Me&body=Hi, %0D%0A%0D%0APlease notify me when Vocalstar Pro is available! %0D%0A%0D%0AKind regards, %0D%0A[your name]" target="_blank"><Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button></a>
       <br/>
-      <a href="/video"><Button colorScheme='yellow' variant='outline' size='lg'>Show me a video</Button></a>
+      {/* <a href="/video"><Button colorScheme='yellow' variant='outline' size='lg'>Show me a video</Button></a> */}
       </VStack>
-           <img src="iPhone4.png" class="mobile" width="380" alt="Vocalstar iPhone" />
+           <img src="iPhoneMaster.png" class="mobile" width="380" alt="Vocalstar iPhone" />
       </SimpleGrid>
       <Footer />
     </Flex>
