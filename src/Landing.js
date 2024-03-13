@@ -49,8 +49,8 @@ export default function LandingLayout(props) {
         <li class="mylist">&#8227;  Hear yourself like a pro</li>
         <li class="mylist">&#8227;  Use  wired Apple EarPods for low latency</li>
         <li class="mylist">&#8227;  Select songs from iTunes</li>
-        <li class="mylist">&#8227;  Basic Version free forever</li>
-        <li class="mylist">&#8227;  Pro version <a href="https://tones.studio"><b class="newTitle" >Tones Studio</b></a> with many additional features like recording and editing in 2024</li>
+        <li class="mylist">&#8227;  Basic version free forever</li>
+        <li class="mylist">&#8227;  Pro version <a href="https://tones.studio"><b class="newTitle" >Tones Studio</b></a> with many additional features in 2024...</li>
       </ul>
       </div>
 
@@ -60,8 +60,8 @@ export default function LandingLayout(props) {
       </a>
 
 <br/><br/>  
-      <Text>Get notified when Tones Studio is available</Text>
-      <a href="mailto:info@vocalstar.app?subject=Notify Me&body=Hi, %0D%0A%0D%0APlease notify me when Vocalstar Pro is available! %0D%0A%0D%0AKind regards, %0D%0A[your name]" target="_blank"><Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button></a>
+      <Text>Notify me when <b class="newTitle">Tones Studio</b> is available</Text>
+      <a href="https://tones.studio" target="_blank"><Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button></a>
       <br/>
       {/* <a href="/video"><Button colorScheme='yellow' variant='outline' size='lg'>Show me a video</Button></a> */}
       </VStack>
