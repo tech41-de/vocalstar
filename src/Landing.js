@@ -60,7 +60,7 @@ export default function LandingLayout(props) {
       </a>
 
 <br/><br/>  
-      <Text>Notify me when <b class="newTitle">Tones Studio</b> is available</Text>
+      <Text>Notify me when <b class="newTitle">Tones Studio</b> is available!</Text>
       <a href="https://tones.studio" target="_blank"><Button colorScheme='orange' variant='outline' size='lg'>Notify me</Button></a>
       <br/>
       {/* <a href="/video"><Button colorScheme='yellow' variant='outline' size='lg'>Show me a video</Button></a> */}
